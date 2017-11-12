@@ -1,0 +1,20 @@
+{
+  "name": "rule_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine spec/*",
+    "playground": "node expert/engine ../playground/rules playground/input.csv playground/output.csv"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "csv-parse": "^2.0.0",
+    "csv-stringify": "^2.0.0",
+    "node-rules": "^3.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-co": "^1.2.2"
+  }
+}
